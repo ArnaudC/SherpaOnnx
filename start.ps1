@@ -1,5 +1,5 @@
 # Usage: .\start.ps1
-# Requires : Nodejs, Dotnet, 'dotnet tool install --global dotnet-ef'
+# Requires : Dotnet, 'dotnet tool install --global dotnet-ef'
 # Execute SetRemoteSignedPolicy the first time to grant execution policy to this script
 param(
   [String] $Command,
@@ -7,7 +7,7 @@ param(
 )
 
 function HelpMessage() {
-    echo "Usage : ./wstart.ps1 <command>"
+    echo "Usage : ./start.ps1 <command>"
     echo " tts 'a text to speak'            Run TTS"
 }
 
